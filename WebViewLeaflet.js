@@ -3,13 +3,13 @@ import {
   View,
   StyleSheet,
   ActivityIndicator,
-  WebView,
   Platform,
   Text,
 } from 'react-native';
 import PropTypes from 'prop-types';
 // import Button from './Button';
 // import AssetUtils from 'expo-asset-utils'
+import { WebView } from 'react-native-webview';
 const asset = require('./assets/dist/index.html');
 
 const util = require('util');
